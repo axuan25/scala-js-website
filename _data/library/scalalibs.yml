@@ -22,6 +22,10 @@
       dep: '"org.scala-js" %%% "scalajs-java-logging" % "0.1.0"'
 - topic: Functional programming
   libraries:
+    - name: ZIO
+      url: https://github.com/zio/zio
+      desc: ZIO is a zero-dependency Scala library for asynchronous and concurrent programming.
+      dep: '"org.scalaz" %% "scalaz-zio" % "1.0-RC5"'
     - name: Scalaz
       url: https://github.com/scalaz/scalaz
       desc: Library for functional programming.
